@@ -13,7 +13,7 @@ const weatherDescription = document.querySelector(".description");
 const humidityElement = document.querySelector(".humidity");
 const windElement = document.querySelector(".wind");
 
-const apiKey = "5bca63192a823246c0e59b0512cebbb1";
+const apiKey = "YOUR_API_KEY";
 
 weather.style.display = "none";
 
