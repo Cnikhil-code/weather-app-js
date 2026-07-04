@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  padding: 20px;
+  text-align: center;
+  border: 1px solid rgb(102, 101, 101);
+  border-radius: 12px;
+  width: 350px;
+  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container input {
+  padding: 8px 8px;
+  margin: 10px 0;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  font-size: 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.container input:focus {
+  outline: none;
+  border-color: rgb(0, 183, 255);
+}
+
+.container button {
+  padding: 9px 20px;
+  border-radius: 12px;
+  border: none;
+  background-color: rgb(19, 104, 214);
+  color: white;
+  transition: transform 0.2s ease;
+}
+
+.container button:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.weather {
+  display: none;
+}
+
+.weather-icon {
+  width: 100px;
+  height: 100px;
+}
+
+.weather p {
+  margin: 6px 0;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
